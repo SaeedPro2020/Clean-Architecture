@@ -1,0 +1,17 @@
+[
+  {
+    "page": 1,
+    "title": "How it works?!",
+    "description": "In SHOP tab of this App, you can find all flower items for shopping. Tap on each item, then in new page insert your address and tap on purchase button. Flowers will send to your address as soon as possible."
+  },
+  {
+    "page": 2,
+    "title": "More details",
+    "description": "You can choose one of the papers or boxes for wrapping flowers in the last step of your purchase."
+  },
+  {
+    "page": 3,
+    "title": "Designer",
+    "description": "My name is Saeed Farkhondeh. I designed this App to demonstrate my Android development skills."
+  }
+]

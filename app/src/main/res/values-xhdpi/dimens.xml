@@ -1,0 +1,11 @@
+<resources>
+	<dimen name="toolbar_text">27dp</dimen>
+    <dimen name="button_add_to_dimen">27dp</dimen>
+	<dimen name="button_buy_dimen">27dp</dimen>
+    <dimen name="text_dialog_left_margin">5dp</dimen>
+	<dimen name="text_dialog_top_margin">15dp</dimen>
+	<dimen name="text_size_dialog_message">35sp</dimen>
+	<dimen name="padding_shop_screen_root_container">20dp</dimen>
+	<dimen name="text_name_page_shop">22dp</dimen>
+	<dimen name="text_price_shop_page">15dp</dimen>
+</resources>

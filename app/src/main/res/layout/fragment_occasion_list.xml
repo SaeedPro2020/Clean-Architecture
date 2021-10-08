@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myViewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_CardView">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="451dp"
+        android:layout_alignStart="@+id/list"
+        android:layout_alignLeft="@+id/list"
+        android:layout_alignTop="@+id/list"
+        android:layout_alignEnd="@+id/list"
+        android:layout_alignRight="@+id/list"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/card_background4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autofillHints="something for hints"
+            android:hint="@string/set_a_title"
+            android:inputType="text"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:autofillHints="something for date hint"
+            android:hint="@string/set_a_date"
+            android:inputType="date"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/design_default_color_primary"
+                android:text="@string/cancel_button"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/design_default_color_primary"
+                android:text="@string/save_button"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="com.example.flowerApplication.OccasionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:layoutManager="LinearLayoutManager"
+        tools:context=".ui.occasionTab.OccasionFragment"
+        tools:listitem="@layout/fragment_occasion" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:contentDescription="@string/fab_add_occasion"
+        android:focusable="true"
+        app:backgroundTint="@color/float_btn"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/add_float" />
+
+
+</RelativeLayout>

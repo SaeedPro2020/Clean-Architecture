@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.flowerApplication.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/nav_main_to_help"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_main_to_language"
+            app:destination="@id/language_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.flowerApplication.ui.detail.DetailFragment"
+        android:label="DetailFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.flowerApplication.ui.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.flowerApplication.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/nav_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.flowerApplication.ui.helpFragment.HelpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/language_fragment"
+        android:name="com.example.flowerApplication.Languagefragment"
+        android:label="language_fragment"
+        tools:layout="@layout/language_fragment" />
+</navigation>

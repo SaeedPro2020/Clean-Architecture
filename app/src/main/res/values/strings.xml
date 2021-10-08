@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Flower Gift</string>
+    <string name="image_of_flower">an image of a flower</string>
+    <string name="popularity_rating">Popularity</string>
+    <string name="purchase">Purchase</string>
+    <string name="todo">TODO</string>
+    <string name="price">Price</string>
+    <string name="shop">SHOP</string>
+    <string name="about">ABOUT</string>
+    <string name="occasions">OCCASIONS</string>
+    <string name="help">HELP</string>
+    <string name="shop_button">this is a button for watching list of items</string>
+    <string name="about_button">button to use for describing App</string>
+    <string name="occasions_btn">a button to set some occasions</string>
+    <string name="music_btn">a button for play music</string>
+    <string name="setting">settings</string>
+    <string name="flower_gift">Flower Gift</string>
+    <string name="a_button_for_show_languages">a button for show languages</string>
+    <string name="image_for_about_pages">image for about pages</string>
+    <string name="title_about">title About</string>
+    <string name="description_about">Description about</string>
+    <string name="ImageButtonright">RightImageButton</string>
+    <string name="for_delete_occasions">delete_Occasion</string>
+    <string name="editOccasion">edit_Occasion</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="set_a_title">set a title</string>
+    <string name="set_a_date">set a date</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="shop_list">Shop list</string>
+    <string name="boarder_cardView">an image for boarder of cardView</string>
+    <string name="flower_boarder">a flower boarder for cardView</string>
+    <string name="fab_add_occasion">fab for adding new occasion</string>
+    <string name="image_item_shop_list">item added to shop list</string>
+    <string name="animation_covered_image">covered image for animation</string>
+    <string name="image_covered_for_animation">image covered for animation</string>
+    <string name="seried_of_animation_pattern">seried of animation pattern</string>
+    <string name="flag_of_country">flag of country</string>
+    <string name="flag_of_second_country">flag of second country</string>
+    <string name="flag_of_first_country">flag of first country</string>
+    <string name="ok_button">OK</string>
+    <string name="add_to">Add to</string>
+    <string name="buy">Buy</string>
+    <string name="clean_list">clean list</string>
+
+</resources>

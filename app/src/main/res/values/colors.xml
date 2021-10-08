@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green_light">#5BE80F</color>
+    <color name="custom_cardView">#FDF6B6</color>
+    <color name="custom_cardShop_list">#F8D0FF</color>
+    <color name="background_CardView">#F2D2F8</color>
+    <color name="background_splash_sara">#F3DDF3</color>
+    <color name="text_alart">#9E4E536A</color>
+    <color name="dialog_btn_pressed">#27007E</color>
+    <color name="help_background">#D5D4D4</color>
+    <color name="float_btn">#7D04A9</color>
+</resources>

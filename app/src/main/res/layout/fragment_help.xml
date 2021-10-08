@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/help_background"
+    tools:context=".ui.helpFragment.HelpFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/help"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            tools:ignore="SpUsage" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="15dp"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white"
+        android:text="Here, you can ask any question that you have. We will response you as soon as possible. Our team is available 7 days of a week from 9AM to 6PM">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with us"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/background_btn1_help_fragment"/>
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call us"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/background_btn1_help_fragment"/>
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email us"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/background_btn1_help_fragment"/>
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read our faqs"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/background_btn1_help_fragment"/>
+
+</FrameLayout>

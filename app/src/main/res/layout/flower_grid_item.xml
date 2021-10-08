@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/grid_item_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/padding_shop_screen_root_container">
+
+
+    <ImageView
+        android:id="@+id/flowerImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/image_of_flower"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/nameText"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:contentDescription="Carnation"
+        tools:ignore="HardcodedText"
+        tools:src="@drawable/carnation01" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_name_page_shop"
+        android:fontFamily="@font/lucida_calligraphy_italic"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/priceMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flowerImage"
+        tools:text="Carnation" />
+
+    <TextView
+        android:id="@+id/priceMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_price_shop_page"
+        android:gravity="center"
+        android:text="@string/price"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameText"
+        tools:text="$0.19 / each" />
+
+    <Button
+        android:id="@+id/addToListBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="@dimen/button_add_to_dimen"
+        android:background="@drawable/round_btn_selector"
+        android:text="@string/add_to"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buyBtnP1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceMain"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <Button
+        android:id="@+id/buyBtnP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="@dimen/button_buy_dimen"
+        android:background="@drawable/round_btn_selector"
+        android:text="@string/buy"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/addToListBtn"
+        app:layout_constraintTop_toBottomOf="@+id/priceMain"
+        app:layout_constraintVertical_bias="0.467" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

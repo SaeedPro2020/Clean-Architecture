@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="button_add_to_dimen">5dp</dimen>
+    <dimen name="button_buy_dimen">5dp</dimen>
+    <dimen name="text_dialog_left_margin">5dp</dimen>
+    <dimen name="text_dialog_top_margin">15dp</dimen>
+    <dimen name="text_size_dialog_message">15sp</dimen>
+    <dimen name="padding_shop_screen_root_container">16dp</dimen>
+    <dimen name="text_name_page_shop">15dp</dimen>
+    <dimen name="text_price_shop_page">8dp</dimen>
+</resources>
